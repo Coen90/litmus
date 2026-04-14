@@ -1,0 +1,483 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1776131450116,
+  "projectRoot": "/Users/baghyeontae/mrblue/golang/litmus",
+  "techStack": {
+    "languages": [],
+    "frameworks": [],
+    "packageManager": null,
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "scripts"
+    ],
+    "gitBranches": {
+      "defaultBranch": "master",
+      "branchingStrategy": null
+    }
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "adopters": {
+      "path": "adopters",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1776131450109,
+      "keyFiles": []
+    },
+    "chaos-engineering": {
+      "path": "chaos-engineering",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1776131450109,
+      "keyFiles": []
+    },
+    "chaoscenter": {
+      "path": "chaoscenter",
+      "purpose": null,
+      "fileCount": 5,
+      "lastAccessed": 1776131450109,
+      "keyFiles": [
+        "Makefile",
+        "client-ext.conf",
+        "fuzz_build.sh",
+        "mtls-helper.sh",
+        "server-ext.conf"
+      ]
+    },
+    "community": {
+      "path": "community",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1776131450110,
+      "keyFiles": [
+        "Readme.md"
+      ]
+    },
+    "demo": {
+      "path": "demo",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1776131450110,
+      "keyFiles": []
+    },
+    "images": {
+      "path": "images",
+      "purpose": null,
+      "fileCount": 28,
+      "lastAccessed": 1776131450110,
+      "keyFiles": [
+        "Docs.svg",
+        "chaos-operator-flow.png",
+        "favicon.png",
+        "litmus-arch_1.png",
+        "litmus-control-and-execution-plane-overview.png"
+      ]
+    },
+    "mkdocs": {
+      "path": "mkdocs",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1776131450110,
+      "keyFiles": [
+        "mkdocs.yml"
+      ]
+    },
+    "monitoring": {
+      "path": "monitoring",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1776131450111,
+      "keyFiles": [
+        "README.md"
+      ]
+    },
+    "proposals": {
+      "path": "proposals",
+      "purpose": null,
+      "fileCount": 13,
+      "lastAccessed": 1776131450111,
+      "keyFiles": [
+        "README.md",
+        "TEMPLATE.md",
+        "backstage-plugin.md",
+        "distributed-tracing-for-chaos-experiments.md",
+        "java-sdk.md"
+      ]
+    },
+    "resources": {
+      "path": "resources",
+      "purpose": null,
+      "fileCount": 3,
+      "lastAccessed": 1776131450111,
+      "keyFiles": [
+        "Cloud_Native_Chaos_Engineering.md",
+        "Litmus_2.0_Chaos_Engineering_Journey.md",
+        "README.md"
+      ]
+    },
+    "scripts": {
+      "path": "scripts",
+      "purpose": "Build/utility scripts",
+      "fileCount": 5,
+      "lastAccessed": 1776131450111,
+      "keyFiles": [
+        "create-release-manifests.sh",
+        "start-dev.ps1",
+        "start-dev.sh"
+      ]
+    },
+    "translations": {
+      "path": "translations",
+      "purpose": null,
+      "fileCount": 10,
+      "lastAccessed": 1776131450112,
+      "keyFiles": [
+        "README-chn.md",
+        "README-es.md",
+        "README-fr.md",
+        "README-ge.md",
+        "README-hi.md"
+      ]
+    },
+    "mkdocs/docs": {
+      "path": "mkdocs/docs",
+      "purpose": "Documentation",
+      "fileCount": 136,
+      "lastAccessed": 1776131450113,
+      "keyFiles": [
+        "_config.yml",
+        "chaos-scheduler-v1.10.0.yaml",
+        "chaos-scheduler-v1.12.0.yaml"
+      ]
+    },
+    "monitoring/utils": {
+      "path": "monitoring/utils",
+      "purpose": "Utility functions",
+      "fileCount": 1,
+      "lastAccessed": 1776131450113,
+      "keyFiles": [
+        "README.md"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "",
+      "accessCount": 16,
+      "lastAccessed": 1776132713716,
+      "type": "directory"
+    },
+    {
+      "path": "chaoscenter/graphql/server/pkg/chaos_infrastructure/service.go",
+      "accessCount": 6,
+      "lastAccessed": 1776132882331,
+      "type": "file"
+    },
+    {
+      "path": "chaoscenter/subscriber/pkg/k8s/operations.go",
+      "accessCount": 5,
+      "lastAccessed": 1776148462144,
+      "type": "file"
+    },
+    {
+      "path": "chaoscenter/subscriber/subscriber.go",
+      "accessCount": 4,
+      "lastAccessed": 1776148462215,
+      "type": "file"
+    },
+    {
+      "path": "README.md",
+      "accessCount": 2,
+      "lastAccessed": 1776132651958,
+      "type": "file"
+    },
+    {
+      "path": "chaoscenter/subscriber/pkg/k8s/operations_test.go",
+      "accessCount": 2,
+      "lastAccessed": 1776132917996,
+      "type": "file"
+    },
+    {
+      "path": "chaoscenter/subscriber/pkg/k8s/defination.go",
+      "accessCount": 2,
+      "lastAccessed": 1776132918116,
+      "type": "file"
+    },
+    {
+      "path": "chaoscenter/upgrade-agents/control-plane/upgrade-agent.yaml",
+      "accessCount": 1,
+      "lastAccessed": 1776131607036,
+      "type": "file"
+    },
+    {
+      "path": "chaoscenter/graphql/server/pkg/chaos_infrastructure/infra_utils.go",
+      "accessCount": 1,
+      "lastAccessed": 1776131619338,
+      "type": "file"
+    },
+    {
+      "path": "chaoscenter/graphql/server/manifests/cluster/3b_agents_deployment.yaml",
+      "accessCount": 1,
+      "lastAccessed": 1776131622338,
+      "type": "file"
+    },
+    {
+      "path": "chaoscenter/graphql/server/manifests/namespace/3b_agents_deployment.yaml",
+      "accessCount": 1,
+      "lastAccessed": 1776131622482,
+      "type": "file"
+    },
+    {
+      "path": "chaoscenter/graphql/server/manifests/cluster/1a_argo_crds.yaml",
+      "accessCount": 1,
+      "lastAccessed": 1776131629091,
+      "type": "file"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "accessCount": 1,
+      "lastAccessed": 1776132652121,
+      "type": "file"
+    },
+    {
+      "path": "GOVERNANCE.md",
+      "accessCount": 1,
+      "lastAccessed": 1776132652515,
+      "type": "file"
+    },
+    {
+      "path": "ROADMAP.md",
+      "accessCount": 1,
+      "lastAccessed": 1776132653169,
+      "type": "file"
+    },
+    {
+      "path": "chaoscenter/graphql/server/go.mod",
+      "accessCount": 1,
+      "lastAccessed": 1776132665562,
+      "type": "file"
+    },
+    {
+      "path": "chaoscenter/graphql/server/graph/resolver.go",
+      "accessCount": 1,
+      "lastAccessed": 1776132666016,
+      "type": "file"
+    },
+    {
+      "path": "chaoscenter/authentication/api/main.go",
+      "accessCount": 1,
+      "lastAccessed": 1776132666438,
+      "type": "file"
+    },
+    {
+      "path": "chaoscenter/event-tracker/main.go",
+      "accessCount": 1,
+      "lastAccessed": 1776132667981,
+      "type": "file"
+    },
+    {
+      "path": "chaoscenter/web/package.json",
+      "accessCount": 1,
+      "lastAccessed": 1776132668730,
+      "type": "file"
+    },
+    {
+      "path": "chaoscenter/Makefile",
+      "accessCount": 1,
+      "lastAccessed": 1776132668864,
+      "type": "file"
+    },
+    {
+      "path": "chaoscenter/event-tracker/api/v1/eventtrackerpolicy_types.go",
+      "accessCount": 1,
+      "lastAccessed": 1776132669110,
+      "type": "file"
+    },
+    {
+      "path": "chaoscenter/graphql/server/pkg/database/mongodb/chaos_infrastructure/schema.go",
+      "accessCount": 1,
+      "lastAccessed": 1776132682331,
+      "type": "file"
+    },
+    {
+      "path": "chaoscenter/graphql/server/pkg/database/mongodb/chaos_experiment/schema.go",
+      "accessCount": 1,
+      "lastAccessed": 1776132683456,
+      "type": "file"
+    },
+    {
+      "path": "chaoscenter/graphql/server/pkg/database/mongodb/chaos_experiment_run/schema.go",
+      "accessCount": 1,
+      "lastAccessed": 1776132684045,
+      "type": "file"
+    },
+    {
+      "path": "chaoscenter/graphql/server/pkg/database/mongodb/probe/schema.go",
+      "accessCount": 1,
+      "lastAccessed": 1776132684694,
+      "type": "file"
+    },
+    {
+      "path": "chaoscenter/graphql/server/pkg/database/mongodb/environments/schema.go",
+      "accessCount": 1,
+      "lastAccessed": 1776132685158,
+      "type": "file"
+    },
+    {
+      "path": "chaoscenter/graphql/server/pkg/database/mongodb/gitops/schema.go",
+      "accessCount": 1,
+      "lastAccessed": 1776132685517,
+      "type": "file"
+    },
+    {
+      "path": "chaoscenter/graphql/server/pkg/database/mongodb/chaos_hub/schema.go",
+      "accessCount": 1,
+      "lastAccessed": 1776132686030,
+      "type": "file"
+    },
+    {
+      "path": "chaoscenter/graphql/server/pkg/database/mongodb/image_registry/schema.go",
+      "accessCount": 1,
+      "lastAccessed": 1776132686667,
+      "type": "file"
+    },
+    {
+      "path": "chaoscenter/graphql/server/graph/chaos_experiment.resolvers.go",
+      "accessCount": 1,
+      "lastAccessed": 1776132691967,
+      "type": "file"
+    },
+    {
+      "path": "chaoscenter/graphql/server/graph/chaos_infrastructure.resolvers.go",
+      "accessCount": 1,
+      "lastAccessed": 1776132693226,
+      "type": "file"
+    },
+    {
+      "path": "chaoscenter/authentication/pkg/entities/project.go",
+      "accessCount": 1,
+      "lastAccessed": 1776132694279,
+      "type": "file"
+    },
+    {
+      "path": "chaoscenter/authentication/pkg/entities/user.go",
+      "accessCount": 1,
+      "lastAccessed": 1776132694767,
+      "type": "file"
+    },
+    {
+      "path": "chaoscenter/authentication/pkg/validations/roles.go",
+      "accessCount": 1,
+      "lastAccessed": 1776132695274,
+      "type": "file"
+    },
+    {
+      "path": "chaoscenter/subscriber/pkg/events/chaosengine.go",
+      "accessCount": 1,
+      "lastAccessed": 1776132696261,
+      "type": "file"
+    },
+    {
+      "path": "chaoscenter/subscriber/pkg/events/workflow.go",
+      "accessCount": 1,
+      "lastAccessed": 1776132696601,
+      "type": "file"
+    },
+    {
+      "path": "chaoscenter/graphql/server/pkg/data-store/store.go",
+      "accessCount": 1,
+      "lastAccessed": 1776132703294,
+      "type": "file"
+    },
+    {
+      "path": "chaoscenter/graphql/server/pkg/authorization/roles.go",
+      "accessCount": 1,
+      "lastAccessed": 1776132704268,
+      "type": "file"
+    },
+    {
+      "path": "chaoscenter/graphql/server/pkg/database/mongodb/common_schema.go",
+      "accessCount": 1,
+      "lastAccessed": 1776132704707,
+      "type": "file"
+    },
+    {
+      "path": "chaoscenter/subscriber/pkg/requests/webhook.go",
+      "accessCount": 1,
+      "lastAccessed": 1776132705172,
+      "type": "file"
+    },
+    {
+      "path": "chaoscenter/event-tracker/controllers/eventtrackerpolicy_controller.go",
+      "accessCount": 1,
+      "lastAccessed": 1776132706156,
+      "type": "file"
+    },
+    {
+      "path": "chaoscenter/graphql/server/graph/probe.resolvers.go",
+      "accessCount": 1,
+      "lastAccessed": 1776132706727,
+      "type": "file"
+    },
+    {
+      "path": "chaoscenter/graphql/server/server.go",
+      "accessCount": 1,
+      "lastAccessed": 1776132718485,
+      "type": "file"
+    },
+    {
+      "path": "SETUP.md",
+      "accessCount": 1,
+      "lastAccessed": 1776132719068,
+      "type": "file"
+    },
+    {
+      "path": "chaoscenter/graphql/server/graph/gitops.resolvers.go",
+      "accessCount": 1,
+      "lastAccessed": 1776132720030,
+      "type": "file"
+    },
+    {
+      "path": "chaoscenter/graphql/server/graph/environment.resolvers.go",
+      "accessCount": 1,
+      "lastAccessed": 1776132720105,
+      "type": "file"
+    },
+    {
+      "path": "chaoscenter/subscriber",
+      "accessCount": 1,
+      "lastAccessed": 1776132852830,
+      "type": "directory"
+    },
+    {
+      "path": "chaoscenter/subscriber/pkg/events/utils_fuzz_test.go",
+      "accessCount": 1,
+      "lastAccessed": 1776132859038,
+      "type": "file"
+    },
+    {
+      "path": "chaoscenter/graphql/server/pkg/chaos_infrastructure/fuzz/fuzz_test.go",
+      "accessCount": 1,
+      "lastAccessed": 1776132863470,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}

@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"go test ./pkg/k8s/ -run \\\"TestAgent\\\" -v 2>&1\",\"timeout\":60000,\"description\":\"Run the agent flow tests\"}",
+  "error": "Exit code 1\n=== RUN   TestAgentAlreadyConfirmed_ShouldCallAgentRegister\n    agent_flow_test.go:111: \n        \tError Trace:\t/Users/baghyeontae/mrblue/golang/litmus/chaoscenter/subscriber/pkg/k8s/agent_flow_test.go:111\n        \tError:      \tShould have called with given arguments\n        \tTest:       \tTestAgentAlreadyConfirmed_ShouldCallAgentRegister\n        \tMessages:   \tExpected \"AgentRegister\" to have been called with:\n        \t            \t[existing-access-key]\n        \t            \tbut actual...",
+  "timestamp": "2026-04-14T06:38:19.901Z",
+  "retry_count": 1
+}

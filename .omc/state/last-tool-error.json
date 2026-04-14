@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"cd /Users/baghyeontae/mrblue/golang/litmus/chaoscenter/subscriber && go test ./pkg/k8s/ -run \\\"TestAgent\\\" -v 2>&1\",\"timeout\":60000,\"description\":\"Run the new agent flow tests\"}",
+  "error": "Exit code 1\n# subscriber/pkg/k8s\n../../../../../go/pkg/mod/github.com/stretchr/testify@v1.9.0/mock/mock.go:16:2: missing go.sum entry for module providing package github.com/stretchr/objx (imported by github.com/stretchr/testify/mock); to add:\n\tgo get github.com/stretchr/testify/mock@v1.9.0\nFAIL\tsubscriber/pkg/k8s [setup failed]\nFAIL\n[rerun: b2]",
+  "timestamp": "2026-04-14T06:37:52.104Z",
+  "retry_count": 1
+}
